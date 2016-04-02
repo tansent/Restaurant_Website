@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>RegisterUIServlet</servlet-name>
+    <servlet-class>web.UI.RegisterUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>web.controller.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ImageUIServlet</servlet-name>
+    <servlet-class>web.UI.ImageUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginUIServlet</servlet-name>
+    <servlet-class>web.UI.LoginUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>web.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>web.controller.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ReservationUIServlet</servlet-name>
+    <servlet-class>web.UI.ReservationUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteOrderUIServlet</servlet-name>
+    <servlet-class>web.UI.DeleteOrderUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteOrderServlet</servlet-name>
+    <servlet-class>web.controller.DeleteOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ReservationServlet</servlet-name>
+    <servlet-class>web.controller.ReservationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AboutUsUIServlet</servlet-name>
+    <servlet-class>web.UI.AboutUsUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TodaysSpecialUIServlet</servlet-name>
+    <servlet-class>web.UI.TodaysSpecialUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MenuUIServlet</servlet-name>
+    <servlet-class>web.UI.MenuUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WeddingUIServlet</servlet-name>
+    <servlet-class>web.UI.WeddingUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LocationUIServlet</servlet-name>
+    <servlet-class>web.UI.LocationUIServlet</servlet-class>
+  </servlet>
+  <error-page>
+  	<error-code>404</error-code>
+  	<location>/WEB-INF/jsp/message.jsp</location>
+  </error-page>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>RegisterUIServlet</servlet-name>
+    <url-pattern>/servlet/RegisterUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/servlet/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImageUIServlet</servlet-name>
+    <url-pattern>/servlet/ImageUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginUIServlet</servlet-name>
+    <url-pattern>/servlet/LoginUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/servlet/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReservationUIServlet</servlet-name>
+    <url-pattern>/servlet/ReservationUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteOrderUIServlet</servlet-name>
+    <url-pattern>/servlet/DeleteOrderUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteOrderServlet</servlet-name>
+    <url-pattern>/servlet/DeleteOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReservationServlet</servlet-name>
+    <url-pattern>/servlet/ReservationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AboutUsUIServlet</servlet-name>
+    <url-pattern>/servlet/AboutUsUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TodaysSpecialUIServlet</servlet-name>
+    <url-pattern>/servlet/TodaysSpecialUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MenuUIServlet</servlet-name>
+    <url-pattern>/servlet/MenuUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WeddingUIServlet</servlet-name>
+    <url-pattern>/servlet/WeddingUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LocationUIServlet</servlet-name>
+    <url-pattern>/servlet/LocationUIServlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
